@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(64, 83, 255);
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logo {
+    vertical-align: top;
+}
+
+nav {
+    vertical-align: top;
+    position: absolute;
+    top: 0%;
+    right: 20%;
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 5px 5px rgb(70, 70, 70);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+#pic {
+    width: 200px;
+    height: 380px;
+    background: url(pepsi001.png)center/cover no-repeat;
+    /* background: yellow;  */
+    display: inline-block;
+    margin-left: 60%;
+    margin-top: 10%;
+}
+
+h2 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 2rem;
+    color: white;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    font-size: 4rem;
+}
+
+p {
+    display: inline-block;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    text-transform: capitalize;
+}
+
+#btn {
+    display: inline-block;
+    position: absolute;
+    padding: 5px 10px;
+    border-radius: 20px;
+    top: 65%;
+    left: 20%;
+}
+
+#btn:hover {
+    background: rgb(70, 70, 70);
+    color: white;
+}
+
+.footer-pic {
+    display: flex;
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 40%;
+    justify-content: space-between;
+}
+
+img {
+    cursor: pointer;
+}
+
+#pepsi1:hover {
+    transform: translateY(-5px);
+}
+
+#pepsi2:hover {
+    transform: translateY(-5px);
+}
+
+#pepsi3:hover {
+    transform: translateY(-5px);
+}
+
+@media all and (max-width:566px) {
+    body {
+        overflow-x: hidden;
+    }
+    nav {
+        left: 5%;
+    }
+    p {
+        left: 1%;
+        width: 300px;
+        font-size: 10px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    h1, h2 {
+        left: 1%;
+    }
+    #btn {
+        top: 60%;
+        font-size: 10px;
+        left: 1%;
+    }
+    .footer-pic {
+        display: flex;
+        width: 30%;
+        margin-top: 20%;
+        margin-left: 40%;
+        justify-content: space-between;
+    }
+    #pic {
+        margin-left: 220px;
+    }
+    #logo {
+        width: 50px;
+    }
+}
