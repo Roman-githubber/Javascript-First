@@ -1,2 +1,2 @@
 # Javascript-First
-Its my first Javascript based Repository
+This is a basic javascript repository
